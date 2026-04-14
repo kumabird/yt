@@ -1,13 +1,11 @@
 {
-  "name": "musicviewer",
+  "name": "music-viewer",
   "version": "1.0.0",
-  "description": "YouTube Music Viewer - dynamic embed server",
+  "description": "Minimal YouTube nocookie viewer",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
-  },
-  "engines": {
-    "node": ">=18"
   },
   "dependencies": {
     "express": "^4.18.2"
